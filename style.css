@@ -1,0 +1,49 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: black;
+}
+
+.container {
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
+	grid-template-areas: 	"oi1 oi2 oi3"
+                      		"oi1 oi2 oi3"
+				            "oi1 oi4 oi4"
+				            "oi5 oi4 oi4"
+                     		"oi5 oi4 oi4";
+    grid-gap: 10px;
+}
+
+div {
+    border-radius: 10px;
+}
+
+.oi1 {
+	background: #5D00FF;
+    grid-area: oi1
+}
+
+.oi2 {
+	background: #5D00FF;
+    grid-area: oi2
+}
+
+.oi3 {
+	background: #5D00FF;
+    grid-area: oi3;
+}
+
+.oi4 {
+	background: #5D00FF;
+    grid-area: oi4;
+}
+
+.oi5 {
+	background: #5D00FF;
+    grid-area: oi5;
+}
