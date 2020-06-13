@@ -11,11 +11,11 @@ body {
 	display: grid;
 	grid-template-columns: 2fr 1fr 1fr;
 	grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
-	grid-template-areas: 	"oi1 oi2 oi3"
-                      		"oi1 oi2 oi3"
-				            "oi1 oi4 oi4"
-				            "oi5 oi4 oi4"
-                     		"oi5 oi4 oi4";
+	grid-template-areas: 	"grid1 grid2 grid3"
+                      		"grid1 grid2 grid3"
+				            "grid1 grid4 grid4"
+				            "grid5 grid4 grid4"
+                     		"grid5 grid4 grid4";
     grid-gap: 10px;
 }
 
@@ -23,27 +23,27 @@ div {
     border-radius: 10px;
 }
 
-.oi1 {
+.grid1 {
 	background: #5D00FF;
-    grid-area: oi1
+    grid-area: grid1
 }
 
-.oi2 {
+.grid2 {
 	background: #5D00FF;
-    grid-area: oi2
+    grid-area: grid2
 }
 
-.oi3 {
+.grid3 {
 	background: #5D00FF;
-    grid-area: oi3;
+    grid-area: grid3;
 }
 
-.oi4 {
+.grid4 {
 	background: #5D00FF;
-    grid-area: oi4;
+    grid-area: grid4;
 }
 
-.oi5 {
+.grid5 {
 	background: #5D00FF;
-    grid-area: oi5;
+    grid-area: grid5;
 }
